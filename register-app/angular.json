@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "registration-app": {
+    "register-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/registration-app",
+            "outputPath": "dist/register-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "registration-app:build:production"
+              "buildTarget": "register-app:build:production"
             },
             "development": {
-              "buildTarget": "registration-app:build:development"
+              "buildTarget": "register-app:build:development"
             }
           },
           "defaultConfiguration": "development"
